@@ -1,0 +1,9 @@
+﻿<Window x:Class="WpfClient.ViewOrdersPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="View Orders" Height="450" Width="800">
+    <Grid>
+        <TextBlock Text="View Orders" FontSize="24" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,20,0,0"/>
+        <DataGrid x:Name="OrdersDataGrid" AutoGenerateColumns="True" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="20,80,20,20"/>
+    </Grid>
+</Window>

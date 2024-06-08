@@ -1,0 +1,16 @@
+﻿<Window x:Class="WpfClient.PlaceOrderPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Place Order" Height="450" Width="800">
+    <Grid>
+        <TextBlock Text="Place Order" FontSize="24" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,20,0,0"/>
+
+        <TextBlock Text="Product ID:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,80,0,0"/>
+        <TextBox x:Name="ProductIdTextBox" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="120,80,0,0" Width="200"/>
+
+        <TextBlock Text="Quantity:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="20,120,0,0"/>
+        <TextBox x:Name="QuantityTextBox" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="120,120,0,0" Width="200"/>
+
+        <Button Content="Place Order" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,20" Width="150" Click="PlaceOrder_Click"/>
+    </Grid>
+</Window>
